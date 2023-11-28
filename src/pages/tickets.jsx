@@ -79,27 +79,66 @@ function Tickets() {
                     </div>
 
                   </div>
-                  <div className='pt-3'>
-                    <div className='flex space-x-3'>
-                      <DownloadIcon className='mt-2'/>
-                      <div className='flex flex-col space-y-3'>
-                        <h3>Downloads</h3>
-                        <p>20</p>
+                  <div className='pt-3 flex space-x-24'>
+                    <div>
+                      <div className='flex space-x-3'>
+                        <DownloadIcon className='mt-2'/>
+                        <div className='flex flex-col space-y-3'>
+                          <h3>Downloads</h3>
+                          <p>20</p>
+                        </div>
+                      </div>
+                      <div className='flex space-x-3'>
+                        <FavoriteIcon className='mt-2 purple-text'/>
+                        <div className='flex flex-col space-y-3'>
+                          <h3 className='mt-2'>Liked Movies</h3>
+              
+                        </div>
                       </div>
                     </div>
-                    <div className='flex space-x-3'>
-                      <FavoriteIcon className='mt-2 purple-text'/>
-                      <div className='flex flex-col space-y-3'>
-                        <h3 className='mt-2'>Liked Movies</h3>
-            
-                      </div>
-                    </div>
-                    {/* <div className=''>
+                    <div className='pt-6'>
                       <CheckCircleOutlineIcon className='mt-2 purple-text'/>
 
-                    </div> */}
+                    </div>
                   </div>
+
+
                 </div>
+                <div className='bg-shadow mt-3 p-3'>
+                  <div>
+                    <Typography variant='h6'>Your Channel</Typography> 
+                  </div>  
+                  <div className='h-24 w-24 purple-bg rounded-[5rem] mt-8 flex ml-[8rem] relative 
+                  place-content-center self-center justify-center align-middle'>
+                    <Typography variant='h3' className='text-white absolute top-5 left-7'>N</Typography>
+                  </div>
+                  <div className='w-[21rem] bg-gray-300 p-4 mt-20 h-[10rem]'>
+                    <div className='flex align-middle place-content-center self-center justify-center space-x-20'>
+                      <div className='space-y-2'>
+                        <Typography variant='h6'>0</Typography>
+                        <Typography variant='h6'>Subscribers</Typography>
+                      </div>
+                      <div className='space-y-2'>
+                        <Typography variant='h6'>0</Typography>
+                        <Typography variant='h6'>Videos</Typography>
+                      </div>
+                    </div> 
+                    <div className='purple-text ml-[8rem] underline pt-10'>
+                      View more
+                    </div> 
+                  </div> 
+
+                  <div className='mt-20 flex align-middle place-content-center self-center justify-center'>
+                    <Typography variant='h5'>Upload a movie</Typography>
+
+                  </div>
+                  <p>Enchance your content by uploading movie now. Enage,
+                        diversify and attract a wider audience for greater success
+                    </p>
+
+                    <button className='purple-bg h-12 w-[8rem] rounded-md ml-20 mt-12 text-white'>Upload</button>
+
+                  </div>
   
                 
               </div>
